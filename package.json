@@ -1,0 +1,24 @@
+{
+    "name": "myfont-downloader",
+    "version": "0.1.0",
+    "author": "Leeroy Brun <leeroy.brun@gmail.com>",
+    "description": "a simple zero-configuration command-line http server",
+    "bin": {
+        "myfont-downloader": "./bin/http-server"
+    },
+    "keywords": [
+        "myfont",
+        "font",
+        "fonts",
+        "downloader"
+    ],
+    "dependencies" : {
+        "request" : "*",
+        "commander": "*",
+        "async": "*"
+    },  
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.6"
+    }
+}
