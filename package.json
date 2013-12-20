@@ -16,7 +16,8 @@
         "request" : "*",
         "commander": "*",
         "async": "*",
-        "unirest": "*"
+        "unirest": "*",
+        "tar.gz": "*"
     },  
     "license": "MIT",
     "engines": {
