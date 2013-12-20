@@ -1,10 +1,10 @@
 {
-    "name": "myfont-downloader",
+    "name": "myfonts-downloader",
     "version": "0.1.0",
     "author": "Leeroy Brun <leeroy.brun@gmail.com>",
-    "description": "a simple zero-configuration command-line http server",
+    "description": "Download a MyFonts font and convert it to TTF",
     "bin": {
-        "myfont-downloader": "./bin/http-server"
+        "myfonts-downloader": "./downloader.js"
     },
     "keywords": [
         "myfont",
@@ -15,7 +15,8 @@
     "dependencies" : {
         "request" : "*",
         "commander": "*",
-        "async": "*"
+        "async": "*",
+        "unirest": "*"
     },  
     "license": "MIT",
     "engines": {
