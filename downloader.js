@@ -22,7 +22,7 @@ if(('format' in cli) === false) {
 }
 
 var cookies = request.jar();
-var delayBetweenCalls = 5000;
+var delayBetweenCalls = 3000;
 
 console.log('Start programm...');
 
